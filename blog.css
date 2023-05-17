@@ -3,30 +3,64 @@
     padding: 0;
   }
 
-h1, h2, h4, p{
+/* h1, h2, h4, p{
     font-family: sans-serif;
-}
+} */
 
 body{
     line-height: 1.4;
-    margin-top: 50px;
-    margin-bottom: 50px;
-   
+    font-family: sans-serif;
+    /* position: relative; */
+
+    
+}
+
+/* article{
+    background-color: orange;
+} */
+
+.shop{
+    background-color: red;
+    font-size: 15px;
+    padding: 5px 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+
+
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    
+    /* left: 60px; */
+    
 }
 
 .product{
-    border: 44px;
-    width: 800px;
+    border: 4px solid black;
+    width: 825px;
     margin: 50px auto;
+    position: relative;
+    
+}
+
+.product-title{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    padding:15px;
 }
 
 .container {
-    border: solid;
-    
     width: 800px;
     margin: 0 auto;
     border-left: auto;
     border-right: auto;
+    
+   
+ 
     /* margin-bottom: px; */
 }
 
@@ -61,13 +95,7 @@ body{
     margin-bottom: 10px;
 }
 
-.product-title{
-    text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    background-color: #f7f7f7;
-    padding:15px;
-}
+
 
 .more-info:link, .more-info:visited{
 color: black;
@@ -82,17 +110,20 @@ margin-bottom: 10px;
 .details-title{
     text-transform: uppercase;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
 
 }
 
 .details-list{
     list-style: square;
-    padding-left: 20px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
 }
 
+.details-list li {
+    margin-bottom: 10px;
+}
 /* .button{
     margin: 20px auto;
     
@@ -105,13 +136,9 @@ margin-bottom: 10px;
     border: none;
     text-transform: uppercase;
     cursor: pointer;
-    width: 800px;
-    /* margin: 20px auto;
-    padding: 15px; */
+    padding: 15px;
+    width: 100%;
     border-top: 4px solid black;
-    margin-top: 100px;
-    /* padding: 50px; */
-    /* margin-bottom: 50px; */
 }
 
 .add-cart:hover {
